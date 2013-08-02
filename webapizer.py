@@ -82,4 +82,5 @@ for f in functions:
 
 if __name__ == '__main__':
     # run
+    bottle.debug(True)
     bottle.run(host='localhost', port=8888, debug=True, server='gevent')
